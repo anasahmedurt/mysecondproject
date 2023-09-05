@@ -1,0 +1,91 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.hero{
+    text-align: center;
+    padding: 20px;
+}
+.hero img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+
+.hero h1{
+    color: lightblue;
+    font-size: 4rem;
+   
+}
+.hero p{
+    font-size: 1.5rem;
+}
+.about h1{
+    color: cornsilk;
+    background-color: cornflowerblue;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.about h2{
+    color: greenyellow;
+}
+.about img{
+    width: 350px;
+    height: 460px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 60px;
+    margin-top: 12px;
+}
+.about-social{
+    list-style-type: none;
+    padding: 2px;
+   
+    
+}
+.about-social li{
+    display: inline;
+    margin-bottom: 5px;
+}
+.portfolio h1{
+   background-color: rgb(206, 28, 164);
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px;
+}
+.portfolio p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.portfolio .card{
+    text-align: center;
+}
+
+.portfolio .card img, .portfolio .card iframe{
+    max-height: 415px;
+    height: 400px;
+}
+.contact{
+    margin-bottom: 29px;
+}
+.contact h1{
+font-size: 4rem;
+text-align: center;
+background-color: darkcyan;
+
+}
+.contact h2{
+   color: mintcream;
+}
+
+
+footer{
+    font-size: 2rem;
+    text-align: center;
+   background-color: darkblue;
+}
